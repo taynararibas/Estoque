@@ -17,6 +17,7 @@ import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.jailton.androidapptemplate.MainActivity
 import com.jailton.androidapptemplate.R
+import com.jailton.androidapptemplate.ui.usuario.CadastroUsuarioActivity
 
 class LoginActivity : AppCompatActivity() {
 
@@ -35,6 +36,16 @@ class LoginActivity : AppCompatActivity() {
         emailEditText = findViewById(R.id.edit_text_email)
         passwordEditText = findViewById(R.id.edit_text_password)
         loginButton = findViewById(R.id.button_login)
+        registerLink = findViewById(R.id.registerLink)
+
+        val registerLink: TextView = findViewById(R.id.registerLink)
+        registerLink.setOnClickListener {
+            val intent: Intent = Intent(
+                applicationContext,
+                CadastroUsuarioActivity::class.java
+            )
+            startActivity(intent)
+        }
 
         loginButton.setOnClickListener {
             val email = emailEditText.text.toString()
