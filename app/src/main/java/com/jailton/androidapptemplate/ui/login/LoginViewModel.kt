@@ -1,4 +1,6 @@
 package com.jailton.androidapptemplate.ui.login
 
-class LoginViewModel {
+import androidx.lifecycle.ViewModel
+
+class LoginViewModel : ViewModel() {
 }
