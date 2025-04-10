@@ -4,12 +4,13 @@ plugins {
     id("com.google.gms.google-services")
 }
 
+
 android {
-    namespace = "com.jailton.androidapptemplate"
+    namespace = "com.taynara.estoque"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.jailton.androidapptemplate"
+        applicationId = "com.taynara.estoque"
         minSdk = 24
         targetSdk = 34
         versionCode = 1

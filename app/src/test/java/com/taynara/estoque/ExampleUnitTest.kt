@@ -1,4 +1,4 @@
-package com.jailton.androidapptemplate
+package com.taynara.estoque
 
 import org.junit.Test
 

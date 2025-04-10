@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "125548370625",
+    "firebase_url": "https://ultimaaula-14a4a-default-rtdb.firebaseio.com",
+    "project_id": "ultimaaula-14a4a",
+    "storage_bucket": "ultimaaula-14a4a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125548370625:android:30a30665feb2712da21240",
+        "android_client_info": {
+          "package_name": "com.taynara.estoque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125548370625-d3intr2ql66dvcn393e4iqptavla0lgo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6oBW63C4hQ4jBt2wIF9rXwJP8U-5DjXs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125548370625-d3intr2ql66dvcn393e4iqptavla0lgo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
